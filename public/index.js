@@ -6,8 +6,8 @@ fetch('/insecure/api/v1/episodes')
             return `<div class="col">
             <div class="card h-100">
                 <img src="${episode.img}" class="card-img-top" alt="episode image height="200px"/>
-                <div class="card-body">
-                    <h5 class="card-title">${episode.name}</h5>
+                <div class="card-body bg-dark">
+                    <h3 class="card-title">${episode.name}</h5>
                     <p class="card-text">${episode.description}</p>
                     <p> Air Date: ${episode.airDate}
                 </div>
@@ -31,8 +31,8 @@ fetch('/insecure/api/v1/characters')
             return `<div class="col">
             <div class="card h-100">
                 <img src="${character.img}" class="card-img-top" alt="character image">
-                <div class="card-body">
-                    <h5 class="card-title">${character.name}</h5>
+                <div class="card-body bg-dark">
+                    <h3 class="card-title">${character.name}</h5>
                     <p class="card-text">Played by: ${character.playedBy}</p>
                 </div>
                 <div class="card-footer">
