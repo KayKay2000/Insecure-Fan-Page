@@ -1,0 +1,33 @@
+.head {
+    background-color: rgb(86, 158, 161);
+    border-bottom: black;
+    height: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+body {
+    background-color: silver;
+}
+.Title {
+    display: flex;
+    justify-content: center;
+}
+.carousel {
+    height: 500px;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+}
+.containsCarousel {
+    display: flex;
+    justify-content: center;
+}
+.smallheader {
+    display: flex;
+    justify-content: center;
+}
+.synopsis {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
