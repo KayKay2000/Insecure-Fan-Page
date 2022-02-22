@@ -21,7 +21,7 @@ fetch('/insecure/api/v1/episodes')
     })
 
 
-
+//this is a note
 
 fetch('/insecure/api/v1/characters')
     .then( res => res.json())
